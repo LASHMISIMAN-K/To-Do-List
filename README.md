@@ -35,12 +35,9 @@ To-Do-List/
 
 ## 📸 Preview
 
-Add a screenshot of your project here.
-
-```markdown
-<img width="661" height="413" alt="image" src="https://github.com/user-attachments/assets/59ab9046-0537-4a13-ae99-5086866dd13a" />
-
-```
+<p align="center">
+  <img src="todo-list-preview.png" alt="To Do List Preview" width="800">
+</p>
 
 ## 🔧 Installation
 
