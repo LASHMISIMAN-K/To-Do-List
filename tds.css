@@ -40,7 +40,28 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: #5ED0FF;
+     background: linear-gradient(
+        90deg,
+        #005f78,
+        #0092b8,
+        #00b8db,
+        #53eafd
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-size: 200% auto;
+    animation: gradientMove 4s linear infinite;
+}
+@keyframes gradientMove{
+    from{
+        background-position: 0% center;
+    }
+    to{
+        background-position: 200% center;
+    }
 }
 
 .container > h2 > img{
@@ -75,7 +96,7 @@ input::placeholder{
 button{
     font-size: 18px;
     font-weight: 600;
-    background-color: #5ED0FF;
+    background-color: #00b8db;
     border: none;
     border-radius: 12px;
     padding: 10px 10px;
@@ -86,7 +107,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: translateY(-3px);
 
 }
 ul{
@@ -102,7 +123,7 @@ ul >li{
     margin-top: 20px;
     color: #fafafa;
     user-select: none;
-    background-color: #5ED0FF;
+    background-color: #00b8db;
     padding: 10px 20px;
     border-radius: 20px;
     width: 100%;
